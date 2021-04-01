@@ -4,7 +4,7 @@ class PostRequest extends React.Component {
     super(props);
     this.state = { articleId: null };
   }
-  componentDidMount() {
+    componentDidMount() {
       const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
